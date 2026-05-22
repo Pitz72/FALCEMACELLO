@@ -1,0 +1,156 @@
+[{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ children: string; as: \"h2\"; size: \"2xl\"; fontFamily: \"heading\"; textAlign: \"center\"; bgGradient: string; bgClip: \"text\"; letterSpacing: \"2px\"; variants: any; }' is not assignable to type 'IntrinsicAttributes & Omit<DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>, keyof HeadingProps> & { ...; } & HeadingProps & { ...; }'.\n  Property 'variants' does not exist on type 'IntrinsicAttributes & Omit<DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>, keyof HeadingProps> & { ...; } & HeadingProps & { ...; }'. Did you mean 'variant'?",
+	"source": "ts",
+	"startLineNumber": 106,
+	"startColumn": 15,
+	"endLineNumber": 106,
+	"endColumn": 23,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'itemVariants'.",
+	"source": "ts",
+	"startLineNumber": 106,
+	"startColumn": 25,
+	"endLineNumber": 106,
+	"endColumn": 37,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'itemVariants'.",
+	"source": "ts",
+	"startLineNumber": 119,
+	"startColumn": 29,
+	"endLineNumber": 119,
+	"endColumn": 41,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ duration: number; }' is not assignable to type 'ResponsiveValue<Transition<string & {}>> | undefined'.\n  Types of property 'duration' are incompatible.\n    Type 'number' is not assignable to type 'Transition<string & {}> | undefined'.",
+	"source": "ts",
+	"startLineNumber": 124,
+	"startColumn": 19,
+	"endLineNumber": 124,
+	"endColumn": 29,
+	"relatedInformation": [
+		{
+			"startLineNumber": 9,
+			"startColumn": 5,
+			"endLineNumber": 9,
+			"endColumn": 15,
+			"message": "The expected type comes from property 'transition' which is declared here on type 'IntrinsicAttributes & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, keyof CardProps> & { ...; } & CardProps & { ...; }'",
+			"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/node_modules/@chakra-ui/styled-system/dist/types/config/transition.d.ts"
+		}
+	],
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'itemVariants'.",
+	"source": "ts",
+	"startLineNumber": 146,
+	"startColumn": 25,
+	"endLineNumber": 146,
+	"endColumn": 37,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2322",
+	"severity": 8,
+	"message": "Type '{ duration: number; }' is not assignable to type 'ResponsiveValue<Transition<string & {}>> | undefined'.\n  Types of property 'duration' are incompatible.\n    Type 'number' is not assignable to type 'Transition<string & {}> | undefined'.",
+	"source": "ts",
+	"startLineNumber": 151,
+	"startColumn": 15,
+	"endLineNumber": 151,
+	"endColumn": 25,
+	"relatedInformation": [
+		{
+			"startLineNumber": 9,
+			"startColumn": 5,
+			"endLineNumber": 9,
+			"endColumn": 15,
+			"message": "The expected type comes from property 'transition' which is declared here on type 'IntrinsicAttributes & Omit<DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, keyof CardProps> & { ...; } & CardProps & { ...; }'",
+			"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/node_modules/@chakra-ui/styled-system/dist/types/config/transition.d.ts"
+		}
+	],
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2304",
+	"severity": 8,
+	"message": "Cannot find name 'MotionImage'.",
+	"source": "ts",
+	"startLineNumber": 161,
+	"startColumn": 22,
+	"endLineNumber": 161,
+	"endColumn": 33,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "17002",
+	"severity": 8,
+	"message": "Expected corresponding JSX closing tag for 'Button'.",
+	"source": "ts",
+	"startLineNumber": 288,
+	"startColumn": 25,
+	"endLineNumber": 288,
+	"endColumn": 37,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "2552",
+	"severity": 8,
+	"message": "Cannot find name 'MotionButton'. Did you mean 'IconButton'?",
+	"source": "ts",
+	"startLineNumber": 288,
+	"startColumn": 25,
+	"endLineNumber": 288,
+	"endColumn": 37,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "1005",
+	"severity": 8,
+	"message": "'>' expected.",
+	"source": "ts",
+	"startLineNumber": 294,
+	"startColumn": 11,
+	"endLineNumber": 294,
+	"endColumn": 13,
+	"extensionID": "vscode.typescript-language-features"
+},{
+	"resource": "/c:/Users/Utente/Documents/GitHub/SITI-WEB/FALCEMACELLO/falce-macello-react/src/components/Music.tsx",
+	"owner": "typescript",
+	"code": "6133",
+	"severity": 4,
+	"message": "'Image' is declared but its value is never read.",
+	"source": "ts",
+	"startLineNumber": 8,
+	"startColumn": 3,
+	"endLineNumber": 8,
+	"endColumn": 8,
+	"tags": [
+		1
+	],
+	"extensionID": "vscode.typescript-language-features"
+}]

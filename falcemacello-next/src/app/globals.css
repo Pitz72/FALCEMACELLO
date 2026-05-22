@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #b9363b;
+  --color-brand-dark: #101721;
+  --color-brand-light: #f7fbfe;
+  --color-brand-secondary: #eff1fe;
+  --color-brand-accent: #e8e8e0;
+  --color-brand-gold: #ffd700; /* Added Gold as per request/legacy */
+
+  --font-orbitron: var(--font-orbitron);
+  --font-inter: var(--font-inter);
+}
+
+:root {
+  --background: #101721;
+  --foreground: #f7fbfe;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-orbitron), sans-serif;
+}

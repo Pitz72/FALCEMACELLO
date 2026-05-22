@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc0000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc9900;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="64" height="64" fill="#0a0a0a" rx="8"/>
+  
+  <!-- Simplified Sickle -->
+  <g transform="translate(16, 16)">
+    <!-- Sickle Handle -->
+    <rect x="0" y="0" width="3" height="24" fill="url(#goldGrad)" rx="1.5"/>
+    
+    <!-- Sickle Blade -->
+    <path d="M 3 3 Q 12 1 15 8 Q 16 12 15 16 Q 12 20 8 18 Q 4 16 3 12 Z" 
+          fill="url(#redGrad)"/>
+  </g>
+  
+  <!-- Simplified Hammer -->
+  <g transform="translate(36, 16)">
+    <!-- Hammer Handle -->
+    <rect x="6" y="0" width="3" height="24" fill="url(#goldGrad)" rx="1.5"/>
+    
+    <!-- Hammer Head -->
+    <rect x="0" y="8" width="12" height="5" fill="url(#redGrad)" rx="1"/>
+    
+    <!-- Hammer Claw -->
+    <path d="M 0 8 Q -3 6 -3 4 Q -2 3 0 5 Z" fill="url(#redGrad)"/>
+    <path d="M 0 13 Q -3 15 -3 17 Q -2 18 0 16 Z" fill="url(#redGrad)"/>
+  </g>
+  
+  <!-- Central Star -->
+  <g transform="translate(32, 32)">
+    <polygon points="0,-6 2,-2 6,-2 3,1 4,5 0,3 -4,5 -3,1 -6,-2 -2,-2" 
+             fill="url(#goldGrad)"/>
+  </g>
+  
+  <!-- Border -->
+  <rect width="64" height="64" fill="none" stroke="url(#redGrad)" stroke-width="2" rx="8"/>
+</svg>

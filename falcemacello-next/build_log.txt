@@ -1,0 +1,55 @@
+
+> falcemacello-next@3.7.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ÔÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Utente\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Utente\Documents\GitHub\SITI-WEB\FALCEMACELLO\falcemacello-next\package-lock.json
+
+   Ôû▓ Next.js 16.0.7 (Turbopack)
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./Documents/GitHub/SITI-WEB/FALCEMACELLO/falcemacello-next/src/app/layout.tsx:7:29
+Ecmascript file had an error
+   5 | import "./globals.css";
+   6 |
+>  7 | const ParticlesBackground = dynamic(() => import("@/components/ui/ParticlesBackground"), {
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 |   ssr: false,
+     | ^^^^^^^^^^^^^
+>  9 | });
+     | ^^^
+  10 |
+  11 | const GlobalAudioPlayer = dynamic(() => import("@/components/audio/GlobalAudioPlayer"), {
+  12 |   ssr: false,
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+./Documents/GitHub/SITI-WEB/FALCEMACELLO/falcemacello-next/src/app/layout.tsx:11:27
+Ecmascript file had an error
+   9 | });
+  10 |
+> 11 | const GlobalAudioPlayer = dynamic(() => import("@/components/audio/GlobalAudioPlayer"), {
+     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 13 | });
+     | ^^^
+  14 |
+  15 | const orbitron = Orbitron({
+  16 |   variable: "--font-orbitron",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+    at <unknown> (./Documents/GitHub/SITI-WEB/FALCEMACELLO/falcemacello-next/src/app/layout.tsx:7:29)
+    at <unknown> (./Documents/GitHub/SITI-WEB/FALCEMACELLO/falcemacello-next/src/app/layout.tsx:11:27)

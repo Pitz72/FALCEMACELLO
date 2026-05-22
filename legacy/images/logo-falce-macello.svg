@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#cc0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#990000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffcc00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc9900;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0a0a" stroke="url(#redGradient)" stroke-width="3"/>
+  
+  <!-- Falce (Sickle) - Left Side -->
+  <g transform="translate(50, 60)">
+    <!-- Sickle Handle -->
+    <rect x="0" y="0" width="8" height="80" fill="url(#goldGradient)" rx="4"/>
+    
+    <!-- Sickle Blade -->
+    <path d="M 8 10 Q 35 5 45 25 Q 50 35 45 45 Q 35 55 20 50 Q 10 45 8 35 Z" 
+          fill="url(#redGradient)" 
+          stroke="#ffd700" 
+          stroke-width="2" 
+          filter="url(#glow)"/>
+    
+    <!-- Sickle Edge Detail -->
+    <path d="M 12 15 Q 30 12 38 28 Q 42 35 38 42 Q 30 48 18 45" 
+          fill="none" 
+          stroke="#ffff00" 
+          stroke-width="1" 
+          opacity="0.8"/>
+  </g>
+  
+  <!-- Martello (Hammer) - Right Side -->
+  <g transform="translate(120, 60)">
+    <!-- Hammer Handle -->
+    <rect x="15" y="0" width="8" height="80" fill="url(#goldGradient)" rx="4"/>
+    
+    <!-- Hammer Head -->
+    <rect x="0" y="25" width="35" height="15" fill="url(#redGradient)" rx="3" filter="url(#glow)"/>
+    
+    <!-- Hammer Head Detail -->
+    <rect x="2" y="27" width="31" height="11" fill="none" stroke="#ffd700" stroke-width="1" rx="2"/>
+    
+    <!-- Hammer Claw -->
+    <path d="M 0 25 Q -8 20 -10 15 Q -8 10 0 15 Z" fill="url(#redGradient)"/>
+    <path d="M 0 40 Q -8 45 -10 50 Q -8 55 0 50 Z" fill="url(#redGradient)"/>
+  </g>
+  
+  <!-- Central Star -->
+  <g transform="translate(100, 100)">
+    <polygon points="0,-15 4,-5 15,-5 7,2 10,12 0,6 -10,12 -7,2 -15,-5 -4,-5" 
+             fill="url(#goldGradient)" 
+             stroke="#cc0000" 
+             stroke-width="2" 
+             filter="url(#glow)"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.6">
+    <!-- Top Decorative Lines -->
+    <line x1="70" y1="30" x2="130" y2="30" stroke="url(#goldGradient)" stroke-width="2"/>
+    <line x1="75" y1="25" x2="125" y2="25" stroke="url(#redGradient)" stroke-width="1"/>
+    
+    <!-- Bottom Decorative Lines -->
+    <line x1="70" y1="170" x2="130" y2="170" stroke="url(#goldGradient)" stroke-width="2"/>
+    <line x1="75" y1="175" x2="125" y2="175" stroke="url(#redGradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- Text Elements -->
+  <g font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">
+    <!-- FALCE -->
+    <text x="100" y="190" font-size="12" fill="url(#redGradient)">FALCE e MACELLO</text>
+    
+    <!-- Subtitle -->
+    <text x="100" y="20" font-size="8" fill="url(#goldGradient)" opacity="0.8">MUSICA • AI • IDEOLOGIA</text>
+  </g>
+  
+  <!-- Geometric Pattern Overlay -->
+  <g opacity="0.3">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="url(#redGradient)" stroke-width="1" stroke-dasharray="5,5"/>
+    <circle cx="100" cy="100" r="50" fill="none" stroke="url(#goldGradient)" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Animation Elements -->
+  <animateTransform attributeName="transform" 
+                    attributeType="XML" 
+                    type="rotate" 
+                    from="0 100 100" 
+                    to="360 100 100" 
+                    dur="20s" 
+                    repeatCount="indefinite"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "FALCE e MACELLO",
+  "short_name": "F&M",
+  "description": "Duo musicale AI - Eredità del PCI e sonorità Anni 80/90",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101721",
+  "theme_color": "#b9363b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
