@@ -17,6 +17,7 @@ export default function SEO({
 
   return (
     <Helmet>
+      <html lang="it" />
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content="FALCE e MACELLO, Musica AI, PCI, Comunismo, Musica Politica, Elettronica, Cyberpunk" />
