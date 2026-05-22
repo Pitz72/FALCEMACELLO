@@ -40,7 +40,7 @@ export function Contact() {
         const steps = [
             "STABILENDO CONNESSIONE CIFRATA HTTPS...",
             "CONTATTANDO IL DATABASE DEL COMITATO CENTRALE...",
-            `CRITTOGRAFANDO I DATI DI: COMPAGNO ${name.toUpperCase()}...`,
+            `CRITTOGRAFANDO I DATI DI: COMPAGNO / COMPAGNA ${name.toUpperCase()}...`,
             "RICHIEDENDO AUTORIZZAZIONE DI SICUREZZA...",
             "INVIO PACCHETTI DATI COMPILATI CON AES-256...",
             "CONNESSIONE COMPLETATA CON SUCCESSO! SALUTI RIVOLUZIONARI."
@@ -141,7 +141,7 @@ export function Contact() {
                                 >
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                         <div className="space-y-2">
-                                            <label htmlFor="name" className="text-[10px] font-mono font-bold text-brand-light/80 uppercase tracking-widest">NOME DEL COMPAGNO</label>
+                                            <label htmlFor="name" className="text-[10px] font-mono font-bold text-brand-light/80 uppercase tracking-widest">NOME DEL COMPAGNO / COMPAGNA</label>
                                             <input
                                                 type="text"
                                                 id="name"
